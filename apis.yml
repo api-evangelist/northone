@@ -1,8 +1,25 @@
 aid: northone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northone.png
 name: NorthOne
-description: NorthOne is a company surfaced as a portfolio company of battery-ventures, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: NorthOne was a mobile-first, API-enabled business banking platform for small
+  businesses, freelancers, and startups, founded in 2016 by Eytan Bensoussan and Justin
+  Adler with banking services provided by The Bancorp Bank, N.A. It offered the Connected
+  Bank Account (a digital business checking account) with envelope budgeting, savings
+  goals, bookkeeping and accounting integrations, cash deposits, and small-business lending,
+  serving 320,000+ businesses and backed by Battery Ventures, Redpoint Ventures, and
+  Tencent. As of 2026 the northone.com domain redirects to Relay (relayfi.com); NorthOne
+  publishes no public developer API, developer portal, documentation, or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/northone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +28,18 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status-note: northone.com redirects to relayfi.com as of 2026; no public API surface found
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Banking
+- Business Banking
+- Fintech
+- Financial Services
+- Small Business
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/northone-domain-security.yml
 - type: Website
   url: https://www.northone.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
