@@ -32,6 +32,8 @@ description: NorthOne was a mobile-first, API-enabled business banking platform 
   Tencent. As of 2026 the northone.com domain redirects to Relay (relayfi.com); NorthOne
   publishes no public developer API, developer portal, documentation, or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/northone/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
