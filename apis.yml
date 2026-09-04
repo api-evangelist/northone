@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.northone.com/', status: 301, note: 'declared website redirects to https://relayfi.com/ — a different registrable domain (northone.com -> relayfi.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northone.png
 name: NorthOne
 description: NorthOne was a mobile-first, API-enabled business banking platform for small
