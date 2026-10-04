@@ -52,7 +52,7 @@ tags:
 - Banking
 - Business Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Small Business
 - Payments
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Financial Services
 - Small Business
 - Payments
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
