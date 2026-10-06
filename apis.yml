@@ -46,7 +46,7 @@ x-tier-reason: portfolio-lead
 x-status-note: northone.com redirects to relayfi.com as of 2026; no public API surface found
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Banking
@@ -71,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://relayfi.com/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/northone-domain-security.yml
 - type: Website
